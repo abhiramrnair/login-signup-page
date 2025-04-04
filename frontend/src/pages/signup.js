@@ -25,7 +25,7 @@ function Signup() {
       return handleError('All details are required!')
     }
     try{
-      const url="backend-rouge-seven-44.vercel.app/auth/signup";
+      const url="https://backend-rouge-seven-44.vercel.app/auth/signup";
       const response=await fetch(url, {
         method: "POST", 
         headers: {
