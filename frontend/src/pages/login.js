@@ -25,7 +25,7 @@ function Login() {
       return handleError('All details are required!')
     }
     try{
-      const url="http://localhost:8080/auth/login";
+      const url="backend-rouge-seven-44.vercel.app/auth/login";
       const response=await fetch(url, {
         method: "POST", 
         headers: {
